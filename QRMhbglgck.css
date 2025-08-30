@@ -1,0 +1,935 @@
+html {
+    height: auto;
+}
+
+
+
+body {
+    width: 414px;
+    margin: 0 auto;
+    height: auto;
+    background-color: #fff;
+}
+
+
+
+@font-face {
+
+    font-family: 'Limon';
+
+    src: url(fonts/limons1.TTF);
+
+}
+
+
+
+#header {
+    width: 100%;
+    height: 100px;
+    margin: 0 auto;
+    background-image: url(QRMhbglgck.svg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#Footer {
+
+    margin: 0 auto;
+
+    width: 980px;
+
+    height: 100px;
+
+}
+
+#MainPanel0 {
+    margin: 0 auto;
+    width: 980px;
+    height: auto;
+    min-height: 500px;
+    text-align: center;
+    background-color: #fff;
+    border: 2px solid #000;
+}
+
+.FieldLabelKh {
+    font-family: 'Battambang';
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    color: #630000;
+    text-indent: 20px;
+    line-height: 45px;
+}
+
+
+
+
+
+.StrawberryFields {
+    width: 480px;
+    height: 60px;
+    line-height: 45px;
+    font-family: 'Arial';
+    font-size: 27px;
+    font-weight: 600;
+    color: #000;
+    text-indent: 5px;
+    border: 1px solid #575757;
+    background: #fff;
+    border-radius: 0px;
+}
+
+.PellenorFields {
+    width: 386px;
+    height: 41px;
+    line-height: 41px;
+    font-family: 'Battambang';
+    font-size: 22px;
+    font-weight: 600;
+    color: #000;
+    border: 2px solid #000;
+    background: #fff;
+    border-radius: 0px;
+}
+
+.BosworthFields {
+    float: right;
+    width: 422px;
+    height: 45px;
+    line-height: 40px;
+    font-family: 'Arial';
+    font-size: 22px;
+    font-weight: 600;
+    color: #000;
+    padding-left: 130px;
+    background-color: #fff071;
+    border-radius: 0px;
+    border: none;
+    outline: none;
+    -webkit-appearance: none;
+}
+
+
+
+
+
+.PoppyFields {
+    float: left;
+    width: 100px;
+    height: 45px;
+    line-height: 40px;
+    font-family: 'Arial';
+    font-size: 22px;
+    text-indent: 15px;
+    font-weight: 600;
+    color: #000;
+    background-color: #fff7b4;
+    background-image: url(images/ArrowDropDown.svg);
+    background-position: right;
+    background-repeat: no-repeat;
+    border-radius: 0px;
+    border: none;
+    outline: none;
+    -webkit-appearance: none;
+}
+
+.RiceFields {
+    float: left;
+    width: 140px;
+    height: 45px;
+    line-height: 40px;
+    font-family: 'Arial';
+    font-size: 22px;
+    text-indent: 15px;
+    font-weight: 600;
+    color: #000;
+    background-color: #fff7b4;
+    background-image: url(images/ArrowDropDown.svg);
+    background-position: right;
+    background-repeat: no-repeat;
+    border-radius: 0px;
+    border: none;
+    outline: none;
+    -webkit-appearance: none;
+}
+
+
+
+
+
+.FlandersFields {
+    float: left;
+    width: 370px;
+    height: 45px;
+    line-height: 40px;
+    font-family: 'Arial';
+    font-size: 22px;
+    text-indent: 15px;
+    font-weight: 600;
+    color: #000;
+    background-color: #fff071;
+    border-radius: 0px;
+    border: none;
+    outline: none;
+    -webkit-appearance: none;
+}
+
+.FlandersFields01 {
+    float: left;
+    width: 355px;
+    height: 45px;
+    line-height: 45px;
+    font-family: 'Arial';
+    font-size: 28px;
+    text-indent: 15px;
+    font-weight: 600;
+    color: #000;
+    background-color: #fff071;
+    border-radius: 0px;
+    border: none;
+    outline: none;
+    -webkit-appearance: none;
+}
+
+.GladdenFields {
+    float: left;
+    width: 430px;
+    height: 45px;
+    line-height: 40px;
+    font-family: 'Battambang';
+    font-size: 22px;
+    text-indent: 15px;
+    font-weight: 600;
+    color: #000;
+    background-color: #fff071;
+    border-radius: 0px;
+    border: none;
+    outline: none;
+    -webkit-appearance: none;
+}
+
+
+
+.SallyFieldsDD {
+    float: left;
+    width: 422px;
+    height: 45px;
+    line-height: 40px;
+    text-indent: 15px;
+    font-family: 'Battambang';
+    font-size: 19px;
+    font-weight: 600;
+    color: #000;
+    background-color: #fff071;
+    background-image: url(images/ArrowDropDown.svg);
+    background-position: right;
+    background-repeat: no-repeat;
+    border-radius: 0px;
+    border: none;
+    outline: none;
+    -webkit-appearance: none;
+}
+
+.CullodenFieldsDD {
+    float: left;
+    width: 650px;
+    height: 55px;
+    line-height: 55px;
+    text-indent: 8px;
+    font-family: 'Battambang';
+    font-size: 21px;
+    font-weight: 800;
+    color: #000;
+    background-image: url(images/ArrowDropDown.svg);
+    background-position: right;
+    background-repeat: no-repeat;
+    border: 1px solid #181818;
+    outline: none;
+    -webkit-appearance: none;
+}
+
+
+
+.YellowFields00 {
+    float: left;
+    width: 355px;
+    height: 27px;
+    line-height: 25px;
+    font-family: 'Battambang';
+    font-size: 20px;
+    text-indent: 15px;
+    font-weight: 600;
+    color: #000;
+    background-color: #fff071;
+    border-radius: 0px;
+    border: none;
+    outline: none;
+    -webkit-appearance: none;
+}
+
+.YellowFields01 {
+    float: left;
+    width: 355px;
+    height: 22px;
+    line-height: 23px;
+    font-family: 'Arial';
+    font-size: 20px;
+    text-indent: 15px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #000;
+    background-color: #fff071;
+    border-radius: 0px;
+    border: none;
+    outline: none;
+    -webkit-appearance: none;
+}
+
+
+
+
+
+.RomanHoliday {
+    font-family: 'Arial';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: bold;
+    color: #4e4e4e;
+}
+
+.RomanForum {
+    font-family: 'Arial';
+    font-size: 16px;
+    font-weight: 600;
+    color: #4e4e4e;
+}
+
+.RomanHelmet {
+    font-family: 'Arial';
+    font-size: 26px;
+    font-weight: 600;
+    color: #161616;
+}
+
+.RomanBlinds {
+    font-family: 'Arial';
+    font-size: 18px;
+    font-weight: 600;
+    color: #161616;
+}
+
+.RomanCandle {
+    font-family: 'Arial';
+    font-size: 24px;
+    font-weight: 400;
+    color: #192843;
+    text-indent: 5px;
+    line-height: 45px;
+}
+
+.RomanCandleB {
+    font-family: 'Arial';
+    font-size: 24px;
+    font-weight: 600;
+    color: #192843;
+    line-height: 45px;
+}
+
+.RomanCandle {
+    font-family: 'Arial';
+    font-size: 22px;
+    font-weight: 600;
+    color: #192843;
+    text-indent: 5px;
+    line-height: 45px;
+}
+
+.RomanCandleBig {
+    font-family: 'Arial';
+    font-size: 22px;
+    font-weight: 400;
+    color: #192843;
+    text-indent: 5px;
+    line-height: 45px;
+}
+
+.RomanShades {
+    font-family: 'Arial';
+    font-size: 18px;
+    font-weight: 600;
+    color: #192843;
+    text-indent: 5px;
+    line-height: 35px;
+}
+
+.RomanCandleLite {
+    text-align: left;
+    font-family: 'Arial';
+    font-size: 20px;
+    font-weight: 400;
+    color: #192843;
+    line-height: 35px;
+}
+
+.RomanCandleKh {
+    font-family: 'Battambang';
+    font-size: 18px;
+    font-weight: 600;
+    color: #192843;
+    text-indent: 0px;
+    line-height: 36px;
+}
+
+.RomanCandleKhBlack {
+    font-family: 'Battambang';
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+    text-indent: 5px;
+    line-height: 40px;
+}
+
+.RomanCandleKhBigBlack {
+    font-family: 'Battambang';
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    color: #000;
+    line-height: 45px;
+}
+
+.RomanCandleLiteKh {
+    font-family: 'Battambang';
+    font-size: 16px;
+    font-weight: 400;
+    color: #192843;
+    text-align: center;
+    line-height: 35px;
+}
+
+.RomanCandleKhKh {
+    font-family: 'Limon';
+    font-size: 40px;
+    font-weight: 500;
+    color: #192843;
+    text-indent: 5px;
+    line-height: 45px;
+}
+
+.RomanCandleKhK {
+    font-family: 'Limon';
+    font-size: 29px;
+    font-weight: 400;
+    color: #192843;
+    text-indent: 5px;
+    line-height: 34px;
+}
+
+.DamascusSteel {
+    font-family: 'Battambang';
+    text-align: left;
+    font-size: 26px;
+    line-height: 58px;
+    font-weight: 700;
+    color: #000;
+    text-indent: 5px;
+}
+
+
+
+.Button01 {
+    width: 350px;
+    height: 65px;
+    line-height: 50px;
+    font-family: 'Arial';
+    color: #fff;
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 0px;
+    background: -webkit-linear-gradient(#A7A7A7, #383838);
+    border-radius: 0px;
+    border: none;
+}
+
+.Button02 {
+    width: 180px;
+    height: 50px;
+    line-height: 50px;
+    font-family: 'Arial';
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 0px;
+    background: #8f1602;
+    -webkit-border-radius: 0px;
+    border: none;
+    -webkit-appearance: none;
+}
+
+.Button002 {
+    width: 170px;
+    height: 60px;
+    line-height: 35px;
+    font-family: 'Arial';
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 0px;
+    background: -webkit-linear-gradient(#A7A7A7, #383838);
+    border-radius: 0px;
+    border: none;
+}
+
+.Button03 {
+    width: 250px;
+    height: 60px;
+    line-height: 60px;
+    font-family: 'Arial';
+    color: #fff;
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 0px;
+    background: #8f1602;
+    -webkit-border-radius: 0px;
+    border: none;
+    -webkit-appearance: none;
+}
+
+
+
+.SessionText {
+    font-family: 'Arial';
+    font-size: 8pt;
+    color: #626262;
+}
+
+.InvisibleText {
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 50px;
+    color: #fff;
+    text-align: center;
+}
+
+.SmallButton2 {
+    width: 120px;
+    height: 25px;
+    font-family: Arial;
+    color: #fff;
+    font-size: 10px;
+    text-align: center;
+    background: -webkit-linear-gradient(#A7A7A7, #383838);
+    -webkit-border-radius: 0px;
+    border: none;
+}
+
+.Navbar {
+    height: 45px;
+    width: 980px;
+    background: -webkit-linear-gradient(#630000, #ba1a00);
+    border-radius: 0px;
+    border: none;
+}
+
+.Navtext {
+    font-family: 'Arial';
+    font-size: 20px;
+    color: #fff;
+    line-height: 45px;
+    font-weight: 600;
+}
+
+
+
+.MiniEnRedText1 {
+    font-family: 'Arial';
+    font-size: 11px;
+    font-weight: 600;
+    color: #630000;
+    line-height: 22px;
+    padding-left: 4px;
+}
+
+
+
+.MiniKhText1 {
+    font-family: 'Battambang';
+    font-size: 12px;
+    font-weight: 600;
+    color: #2C2C2C;
+    line-height: 30px;
+    padding-left: 4px;
+    word-break: break-all;
+}
+
+.MiniEnText1 {
+    font-family: 'Arial';
+    font-size: 11px;
+    font-weight: 400;
+    color: #2C2C2C;
+    line-height: 30px;
+    padding-left: 4px;
+}
+
+
+
+
+
+.AppianWayKh {
+    font-family: 'Battambang';
+    font-size: 19px;
+    font-weight: 600;
+    color: #000;
+    text-align: left;
+    line-height: 40px;
+}
+
+.AppianWayEn {
+    font-family: 'Arial';
+    font-size: 19px;
+    font-weight: 600;
+    color: #000;
+    text-align: left;
+    line-height: 40px;
+}
+
+
+
+
+
+
+
+
+
+#wrapper {
+
+    width: 880px;
+
+    margin: 0 auto;
+
+}
+
+#slide-wrap {
+
+    width: 880px;
+
+    height: 45px;
+
+    overflow: auto;
+
+}
+
+#inner-wrap {
+
+    float: left;
+
+}
+
+
+
+
+
+.PageNo {
+    min-width: 35px;
+    width: auto;
+    height: 35px;
+    margin-left: 6px;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center;
+    font-family: 'Arial';
+
+    font-size: 24px;
+    line-height: 35px;
+    font-weight: bold;
+    color: #fff;
+    background: #6b6b6b;
+    border: 1px solid #9f9f9f;
+    text-decoration: none;
+    -webkit-appearance: none;
+}
+
+.PageNo a:active {
+    min-width: 35px;
+    width: auto;
+    height: 35px;
+    margin-left: 6px;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center;
+    font-family: 'Arial';
+
+    font-size: 24px;
+    line-height: 35px;
+    font-weight: bold;
+    color: #fff;
+    background: #6b6b6b;
+    border: 1px solid #9f9f9f;
+    text-decoration: none;
+    -webkit-appearance: none;
+}
+
+.PageNo a:link {
+    min-width: 35px;
+    width: auto;
+    height: 35px;
+    margin-left: 6px;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center;
+    font-family: 'Arial';
+
+    font-size: 24px;
+    line-height: 35px;
+    font-weight: bold;
+    color: #fff;
+    background: #6b6b6b;
+    border: 1px solid #9f9f9f;
+    text-decoration: none;
+    -webkit-appearance: none;
+}
+
+.PageNo a:hover {
+    min-width: 35px;
+    width: auto;
+    height: 35px;
+    margin-left: 6px;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center;
+    font-family: 'Arial';
+
+    font-size: 24px;
+    line-height: 35px;
+    font-weight: bold;
+    color: #fff;
+    background: #919191;
+    border: 1px solid #9f9f9f;
+    text-decoration: none;
+    -webkit-appearance: none;
+}
+
+.PageNo a:visited {
+    min-width: 35px;
+    width: auto;
+    height: 35px;
+    margin-left: 6px;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center;
+    font-family: 'Arial';
+
+    font-size: 24px;
+    line-height: 35px;
+    font-weight: bold;
+    color: #fff;
+    background: #6b6b6b;
+    border: 1px solid #9f9f9f;
+    text-decoration: none;
+    -webkit-appearance: none;
+}
+
+
+
+.PageNoNow {
+    min-width: 35px;
+    width: auto;
+    height: 35px;
+    margin-left: 5px;
+    margin-right: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center;
+    font-family: 'Arial';
+
+    font-size: 24px;
+    line-height: 35px;
+    font-weight: bold;
+    color: #fff;
+    background: #222;
+    border: 1px solid #9f9f9f;
+    text-decoration: none;
+    -webkit-appearance: none;
+}
+
+.PageNoNow a:active {
+    color: #fff;
+    text-decoration: none;
+    -webkit-appearance: none;
+}
+
+.PageNoNow a:link {
+    color: #fff;
+    text-decoration: none;
+    -webkit-appearance: none;
+}
+
+.PageNoNow a:hover {
+    color: #fff;
+    text-decoration: none;
+    -webkit-appearance: none;
+}
+
+.PageNoNow a:visited {
+    color: #fff;
+    text-decoration: none;
+    -webkit-appearance: none;
+}
+
+
+
+.CardBlueFontEn {
+    font-family: 'Arial';
+    font-size: 17px;
+    font-weight: 600;
+    color: #001f7a;
+    text-align: left;
+}
+
+.CardBlueFontKh {
+    font-family: 'Battambang';
+    font-size: 20px;
+    font-weight: 600;
+    color: #001f7a;
+    text-align: left;
+}
+
+
+
+.CardBlueText {
+    font-family: 'Arial';
+    font-size: 32px;
+    font-weight: 600;
+    color: #001f7a;
+    text-align: left;
+}
+
+.CardBlueTextSmall {
+    font-family: 'Arial';
+    font-size: 19px;
+    font-weight: 600;
+    color: #001f7a;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.CardBlueTextKh {
+    font-family: 'Battambang';
+    font-size: 26px;
+    font-weight: 600;
+    color: #001f7a;
+    text-align: left;
+}
+
+.Serial {
+    font-family: 'Arial';
+    font-size: 26px;
+    font-weight: 800;
+    color: #c02300;
+    text-align: right;
+}
+
+
+
+
+
+
+
+
+
+.PrintBlueFontEn {
+    font-family: 'Arial';
+    font-size: 5pt;
+    font-weight: 600;
+    color: #001f7a;
+    text-align: left;
+}
+
+.PrintBlueFontEn2 {
+    font-family: 'Arial';
+    font-size: 4.5pt;
+    font-weight: 600;
+    color: #001f7a;
+    text-align: left;
+}
+
+.PrintlueFontKh {
+    font-family: 'Battambang';
+    font-size: 20px;
+    font-weight: 600;
+    color: #001f7a;
+    text-align: left;
+}
+
+
+
+.PrintBlueText {
+    font-family: 'Arial';
+    font-size: 32px;
+    font-weight: 600;
+    color: #001f7a;
+    text-align: left;
+}
+
+.PrintBlueTextSmall {
+    font-family: 'Arial';
+    font-size: 9pt;
+    font-weight: 600;
+    color: #001f7a;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.PrintBlueTextKh {
+    font-family: 'Battambang';
+    font-size: 8px;
+    font-weight: 600;
+    color: #001f7a;
+    text-align: left;
+}
+
+.PrintBlueTextKh2 {
+    font-family: 'Battambang';
+    font-size: 7.5pt;
+    font-weight: 600;
+    color: #001f7a;
+    text-align: left;
+}
+
+.PlateNumber {
+    font-family: 'Arial';
+    font-size: 13pt;
+    font-weight: 800;
+    color: #c02300;
+    text-align: center;
+}
+
+.SerialNumber {
+    font-family: 'Arial';
+    font-size: 7pt;
+    font-weight: 800;
+    color: #c02300;
+    text-align: right;
+}
+
+.PrintRedKh {
+    font-family: 'Battambang';
+    font-size: 9pt;
+    font-weight: 600;
+    color: #c02300;
+    text-align: center;
+}
+
+.PrintRedEn {
+    font-family: 'Arial';
+    font-size: 8pt;
+    font-weight: 600;
+    color: #c02300;
+    text-align: center;
+}

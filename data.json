@@ -1,0 +1,28 @@
+[
+    {
+        "QSET01": {
+            "id": 1,
+            "licensePlate": "កណ្ដាល 1AG-1808",
+            "brand": "HONDA DREAM",
+            "type": "ទោចក្រយានយន្ត",
+            "color": "ខ្មៅ",
+            "engineNumber": "ND1***30549",
+            "bodyNumber": "ND125M******30549",
+            "enginePower": "125cc",
+            "cylinderSize": "NIL",
+            "yearOfManufacture": "2019"
+        },
+        "KDJF02": {
+            "id": 1,
+            "licensePlate": "កណ្ដាល 1AG-1808",
+            "type": "ទោចក្រយានយន្ត",
+            "brand": "HONDA DREAM",
+            "color": "black",
+            "engineNumber": "ND1***30549",
+            "bodyNumber": "ND125M******30549",
+            "enginePower": "125cc",
+            "cylinderSize": "NIL",
+            "yearOfManufacture": "2019"
+        }
+    }
+]
